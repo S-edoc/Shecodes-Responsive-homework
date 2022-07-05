@@ -95,3 +95,15 @@ a:hover {
   margin: 20px 0;
   font-size: 28px;
 }
+
+.byline-code {
+  margin-top: 50px;
+}
+.byline-code a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.byline-code a:hover {
+  text-decoration: underline;
+}
