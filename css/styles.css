@@ -43,6 +43,8 @@ a:hover {
 .navigation-links {
   text-align: center;
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .navigation-links a {
