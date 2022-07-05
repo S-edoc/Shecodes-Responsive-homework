@@ -2,6 +2,18 @@
   --primary-color: #6b62ff;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 576px) {
+  .content-paragraph,
+  .content-title {
+    text-align: center;
+  }
+  .responsive-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
 body {
   margin-top: 100px;
 }
@@ -21,6 +33,13 @@ h3 {
   font-size: 24px;
   opacity: 70%;
 }
+
+a:hover {
+  color: white;
+}
+.about-link:hover {
+  color: var(--primary-color);
+}
 .navigation-links {
   text-align: center;
   margin-top: 50px;
@@ -36,7 +55,6 @@ h3 {
 
 .content-title {
   font-size: 48px;
-  font-weight: bold;
 }
 
 .content-link {
